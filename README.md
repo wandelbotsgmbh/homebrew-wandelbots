@@ -1,2 +1,2 @@
-# homebrew-nova
-homebrew repository for wandelbots nova
+# homebrew-wandelbots
+homebrew repository for wandelbots
