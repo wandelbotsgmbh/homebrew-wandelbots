@@ -1,23 +1,23 @@
 class Nova < Formula
   desc "wandelbots cli to interact with wandelbots platform"
   homepage "https://github.com/wandelbotsgmbh/wabocli"
-  version "0.0.130"
+  version "0.0.131"
 
   on_macos do
     on_intel do
-      url "https://github.com/wandelbotsgmbh/wabocli/releases/download/0.0.130/wabocli_macos_amd64-0.0.130.tar.gz"
-      sha256 "4930e06b4e33bc4d683380c9f81d96bf942c75d6609f6a1a6d52feeca478a32e"
+      url "https://github.com/wandelbotsgmbh/wabocli/releases/download/0.0.131/wabocli_macos_amd64-0.0.131.tar.gz"
+      sha256 "19fb5230de87609a1ca2e224e9f3e8870cb079005e45c236c8037be662800b6c"
     end
     on_arm do
-      url "https://github.com/wandelbotsgmbh/wabocli/releases/download/0.0.130/wabocli_macos_arm64-0.0.130.tar.gz"
-      sha256 "6045fe59f044fd59be09345b8117c19cd6035bcf11fdef5461d0a15356c734ee"
+      url "https://github.com/wandelbotsgmbh/wabocli/releases/download/0.0.131/wabocli_macos_arm64-0.0.131.tar.gz"
+      sha256 "9ad8340d19b3d205416814407a8ef35f9c069f39d4a3a584220d176411720ccf"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wandelbotsgmbh/wabocli/releases/download/0.0.130/wabocli_linux_amd64-0.0.130.tar.gz"
-      sha256 "c1f044e283fc99b7d16609350cd1ed1f5a8141b5c60e46a3df776cfa36051718"
+      url "https://github.com/wandelbotsgmbh/wabocli/releases/download/0.0.131/wabocli_linux_amd64-0.0.131.tar.gz"
+      sha256 "9a711fe75fb9e981594f584ff2222537e7b71712bcf35d4d5045f07b4ea5934d"
     end
   end
 
