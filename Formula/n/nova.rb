@@ -1,23 +1,23 @@
 class Nova < Formula
   desc "wandelbots cli to interact with wandelbots platform"
   homepage "https://github.com/wandelbotsgmbh/nova-cli"
-  version "0.0.211"
+  version "0.0.212"
 
   on_macos do
     on_intel do
-      url "https://github.com/wandelbotsgmbh/nova-cli/releases/download/0.0.211/novacli_macos_amd64-0.0.211.tar.gz"
-      sha256 "9e8ded2543ef01579572529787512e42f1a36619dc33ddecec41846d1cbc42f0"
+      url "https://github.com/wandelbotsgmbh/nova-cli/releases/download/0.0.212/novacli_macos_amd64-0.0.212.tar.gz"
+      sha256 "c73c986f47a5d56c6da07e545932e85b13c784bae1e13521add6ee589179af79"
     end
     on_arm do
-      url "https://github.com/wandelbotsgmbh/nova-cli/releases/download/0.0.211/novacli_macos_arm64-0.0.211.tar.gz"
-      sha256 "1af48d6432e2ced6344a10a6aeb97954272d8ccd2c09dbc296acd00a7a007be2"
+      url "https://github.com/wandelbotsgmbh/nova-cli/releases/download/0.0.212/novacli_macos_arm64-0.0.212.tar.gz"
+      sha256 "0f0a00fa6cd1a189166fafa1338a1e68c15cec7db20248745dbaaa6a8f8fdfaa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wandelbotsgmbh/nova-cli/releases/download/0.0.211/novacli_linux_amd64-0.0.211.tar.gz"
-      sha256 "6db49cda86022abb8a0f6440230c0ec35403a59aa7446a6edbb043d37f8a9102"
+      url "https://github.com/wandelbotsgmbh/nova-cli/releases/download/0.0.212/novacli_linux_amd64-0.0.212.tar.gz"
+      sha256 "e5a4927fa67cb5abbacf6614e6dfeba560dc7dc94025c987ac852ed88d836f0e"
     end
   end
 
